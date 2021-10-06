@@ -8,27 +8,42 @@
         <title>Random Quote Machine</title>
         
     </head>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        #quote-box {
+            width: 50%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 300px;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
     <body>
-        <div id="quote-box" class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1 id="text" class="text-center">Text</h1>
-                </div>
-                <div class="col-xs-12">
-                    <h2 id="author" class="text-right">Author</h2>
-                </div>
-                <div class="col-xs-2">
-                    <a href="https://twitter.com/intent/tweet" id="tweet-quote">Tweet Quote</a>
-                </div>
-                <div class="col-xs-2">
-                    <a href="#" id="other-link">Other Link</a>
-                </div>
-                <div class="col-xs-6">
-                </div>
-                <div class="col-xs-2">
-                    <button id="new-quote" class="btn btn-primary btn-block">New Quote</button>
+        <div id="quote-box">
+            <div id="container" class="container-fluid">
+                <h1 id="text" class="text-center">Text</h1>
+                <h2 id="author" class="text-right">Author</h2>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <a href="https://twitter.com/intent/tweet" id="tweet-quote">Tweet Quote</a>
+                    </div>
+                    <div class="col-xs-2">
+                        <a href="#" id="other-link">Other Link</a>
+                    </div>
+                    <div class="col-xs-6">
+                    </div>
+                    <div class="col-xs-2">
+                        <button id="new-quote" class="btn btn-primary btn-block">New Quote</button>
+                    </div>
                 </div>
             </div>
-        </div>    
+        </div>
     </body>
 </html>
