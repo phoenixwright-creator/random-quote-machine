@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 body {
     background-color: rgb(167, 212, 255);
 }
@@ -10,10 +12,12 @@ body {
 #text {
     color: rgb(0, 5, 71);
     font-size: 30px;
+    font-family: 'Playfair Display', sans-serif;
 }
 #author {
     color: rgb(0, 5, 71);
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 .dotted {
     border-top: 2px dotted rgb(0, 5, 71);
@@ -32,6 +36,7 @@ body {
 #new-quote {
     display: flex;
     justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
 }
 .logo {
     width: 35px;
