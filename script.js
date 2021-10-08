@@ -16,7 +16,7 @@ const authorName = document.getElementById("author");
 const newQuoteBtn = document.getElementById("new-quote");
 let randomNum = Math.floor(Math.random()*10);
 quoteText.innerHTML = quotes[randomNum]["text"];
-authorName.innerHTML = quotes[randomNum]["author"];
+authorName.innerHTML = "- " + quotes[randomNum]["author"];
 
 function changeQuote(){
     let newRandomNum = 0;
@@ -25,7 +25,7 @@ function changeQuote(){
     } while(newRandomNum===randomNum);
     
     quoteText.innerHTML = quotes[newRandomNum]["text"];
-    authorName.innerHTML = quotes[newRandomNum]["author"];
+    authorName.innerHTML = "- " + quotes[newRandomNum]["author"];
 }
 
 newQuoteBtn.addEventListener("click", changeQuote);
