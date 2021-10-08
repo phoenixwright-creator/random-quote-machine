@@ -3,23 +3,25 @@
     height: auto;
     padding-right: 10px;
 }
+
 .dotted {
     border-top: 2px dotted rgb(0, 5, 71);
 }
+
 .centered-logos {
     display: flex;
     height: 50px;
     align-items: center;
-    
 }
+
 .end-btn {
     display: flex;
     height: 50px;
     align-items: center;
     justify-content: flex-end;
 }
+
 .box {
-    
     background-color: rgb(250, 231, 210);
     border: 4px solid rgb(0, 5, 71);
     border-radius: 10px;
